@@ -6,5 +6,5 @@ def oxford_comma(array)
     output = array.join( " and " )
   else
     output << "#{array[0]}, "
-    output << 
+    output << array.slice(1)
 end
