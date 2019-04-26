@@ -1,4 +1,10 @@
 def oxford_comma(array)
   output = ""
-  array.each_index { |index| if index == 0  then output << array[index] elsif index < array.count - 1 then output << ", #{array[index]}" else output << ", and #{array[index]}." end }
+  if array.count = 1
+    output = array[0]]
+  elsif array.count = 2
+    output = array.join( " and " )
+  else
+    output << "#{array[0]}, "
+    output << 
 end
